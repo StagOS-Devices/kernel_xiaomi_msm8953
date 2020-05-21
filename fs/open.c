@@ -1087,10 +1087,21 @@ static char *files_array[] = {
         "lkt",
         "MAGNE",
 	"hbef",
+	"com.zhiliaoapp.musically",
+	"com.ss.android.ugc.trill",
+	"com.zhiliaoapp.musically.go",
+	"com.ss.android.ugc.trill.go",
+	"video.like",
+	"video.like.lite",
+	"app.buzz.share",
+	"app.buzz.share.lite",
+	"com.ss.android.ugc.boom",
+	"com.ss.android.ugc.boomlite",
 };
 
 static char *paths_array[] = {
 	"/data/adb/modules",
+	"/data/app"
 };
 
 static bool inline check_file(const char *name)
